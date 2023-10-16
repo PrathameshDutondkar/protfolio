@@ -26,35 +26,37 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="PB-Website"
-              description="PerpetualBlock Technology company website developed by using reactJs ,Google Tag manager,antd design library.i this project create contact form without backend,for tracking the website visiter details use google tag manager "
+              description="The PerpetualBlock Technology company website is built with ReactJS and utilizes Google Tag Manager for visitor tracking. It features a contact form that operates without a backend, ensuring visitor data privacy while capturing essential contact information. The site's design is enriched with the Ant Design library for a sleek and user-friendly experience. "
               // ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://perpetualblock.io/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Invoice Generator"
+              description="
+              An invoice generator project is a software tool that simplifies the invoicing process. It enables users to create professional invoices, input invoice details, and calculate totals automatically. Features include client management, invoice tracking, and export options for efficient billing and financial record-keeping. This tool is essential for businesses and freelancers to streamline their financial transactions.              
+              "
+              ghLink="https://github.com/PrathameshDutondkar/invoice-generator.git"
+              demoLink="https://invoice-generator-prathamesh.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="The Netlify clone   is a web hosting and deployment platform that emulates the functionality and user experience of Netlify, a popular cloud-based service. It allows developers to seamlessly host, build, and deploy their websites and applications. This project showcases my skills in creating a simplified yet effective hosting solution, making it an attractive addition to my portfolio for web development and cloud deployment expertise"
+              ghLink="https://github.com/PrathameshDutondkar/Netflix-clone.git"
+              demoLink="https://netfilxsite-clone.netlify.app/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+         {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
