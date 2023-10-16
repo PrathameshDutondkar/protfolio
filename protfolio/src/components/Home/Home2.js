@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiTwotoneMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -15,30 +11,22 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em",fontWeight:"700"}}>
+            <h1 style={{ fontSize: "2.6em", fontWeight: "700" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            React.js developer with nearly <b className="purple"> one year </b> of experience, dedicated to crafting seamless user interfaces. Seeking opportunities to
-            contribute skills in front-end development to create intuitive web experiences and stay ahead of industry trends.
+              React.js developer with nearly{" "}
+              <b className="purple"> one year </b> of experience, dedicated to
+              crafting seamless user interfaces. Seeking opportunities to
+              contribute skills in front-end development to create intuitive web
+              experiences and stay ahead of industry trends.
               <br />
               <br />I have a Knowleage of
               <i>
-                <b className="purple"> ReactJS , NextJs  </b>
+                <b className="purple"> ReactJS , NextJs </b>
               </i>
-               &nbsp; for buliding a web Application.
+              &nbsp; of buliding a web Application.
               <br />
-
-              {/* <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i> */}
-              {/* &nbsp; like */}
-              {/* <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,16 +52,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/prathamesh-dutondkar-11b93415b"
@@ -84,16 +63,26 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/prathamesh2272"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
-              </li> */}
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:prathameshdutondkar97@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiTwotoneMail />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
