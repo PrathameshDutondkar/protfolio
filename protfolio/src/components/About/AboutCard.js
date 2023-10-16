@@ -16,17 +16,17 @@ function AboutCard() {
             Perpetualblock Technology Pvt Ltd.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+           <span className="purple">Tech Stack:-</span> 
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight />&nbsp;  JavaScript Framework :- ReactJs,NextJs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> &nbsp; CSS Framework :- Antd,MaterialUi,BootStrap,Taliwind,
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> &nbsp; Version Contral- Git
             </li>
           </ul>
 
