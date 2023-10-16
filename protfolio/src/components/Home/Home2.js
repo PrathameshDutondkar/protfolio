@@ -15,11 +15,11 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.6em",fontWeight:"700"}}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            React.js developer with nearly one year of experience, dedicated to crafting seamless user interfaces. Seeking opportunities to
+            React.js developer with nearly <b className="purple"> one year </b> of experience, dedicated to crafting seamless user interfaces. Seeking opportunities to
             contribute skills in front-end development to create intuitive web experiences and stay ahead of industry trends
               <br />
               <br />I am fluent in classics like
@@ -27,12 +27,7 @@ function Home2() {
                 <b className="purple"> ReactJS , NextJs </b>
               </i>
               <br />
-              <br />
-             
-              <br />
 
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
