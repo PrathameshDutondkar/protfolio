@@ -20,24 +20,25 @@ function Home2() {
             </h1>
             <p className="home-about-body">
             React.js developer with nearly <b className="purple"> one year </b> of experience, dedicated to crafting seamless user interfaces. Seeking opportunities to
-            contribute skills in front-end development to create intuitive web experiences and stay ahead of industry trends
+            contribute skills in front-end development to create intuitive web experiences and stay ahead of industry trends.
               <br />
-              <br />I am fluent in classics like
+              <br />I have a Knowleage of
               <i>
-                <b className="purple"> ReactJS , NextJs </b>
+                <b className="purple"> ReactJS , NextJs  </b>
               </i>
+               &nbsp; for buliding a web Application.
               <br />
 
-              <i>
+              {/* <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
-              </i>
-              &nbsp; like
-              <i>
+              </i> */}
+              {/* &nbsp; like */}
+              {/* <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
