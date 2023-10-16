@@ -49,9 +49,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="The Netlify clone   is a web hosting and deployment platform that emulates the functionality and user experience of Netlify, a popular cloud-based service. It allows developers to seamlessly host, build, and deploy their websites and applications. This project showcases my skills in creating a simplified yet effective hosting solution, making it an attractive addition to my portfolio for web development and cloud deployment expertise"
-              ghLink="https://github.com/PrathameshDutondkar/Netflix-clone.git"
+              title="Netflix clone"
+              description="Create a Netflix clone as a frontend web application to showcase your skills in HTML, CSS, and JavaScript. The Netflix clone will replicate the key features and aesthetics of the popular streaming platform. It will allow users to browse a catalog of movies and TV shows, view detailed information about each title, and experience a responsive, user-friendly design."
+                            ghLink="https://github.com/PrathameshDutondkar/Netflix-clone.git"
               demoLink="https://netfilxsite-clone.netlify.app/"              
             />
           </Col>
