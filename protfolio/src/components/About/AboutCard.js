@@ -20,7 +20,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />&nbsp;  JavaScript Framework :- ReactJs,NextJs
+              <ImPointRight />&nbsp;  JavaScript Library :- ReactJs,NextJs
             </li>
             <li className="about-activity">
               <ImPointRight /> &nbsp; CSS Framework :- Antd,MaterialUi,BootStrap,Taliwind,
