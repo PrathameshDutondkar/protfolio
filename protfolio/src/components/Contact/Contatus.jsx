@@ -16,6 +16,7 @@ const Contatus = () => {
       <div className="left-container">
         <ContactUsForm/>
       </div>
+      <div className="right-container"></div>
       
       </div>
     </div>
