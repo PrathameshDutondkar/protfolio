@@ -74,14 +74,14 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="mailto:prathameshdutondkar97@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiTwotoneMail />
-                </a>
+                  <a
+                    href="mailto:prathameshdutondkar97@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour home-social-icons"
+                  >
+                    <AiTwotoneMail />
+                  </a>
               </li>
             </ul>
           </Col>
