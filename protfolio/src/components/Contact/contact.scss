@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap");
+
 .contactus-container {
   display: flex;
   padding: 7.8rem 0;
@@ -7,10 +9,9 @@
   flex-wrap: wrap;
   gap: 5rem;
   background-image: url(../../Assets/contact-us.jpg);
-  
+
   background-position: center;
   background-size: cover;
-  
 }
 .form-container {
   display: flex;
@@ -19,29 +20,26 @@
   justify-content: center;
 
   width: 100%;
-  padding: 0 5rem ;
- 
+  padding: 0 5rem;
 }
 
 .left-container {
- flex: 1;
+  flex: 1;
 }
 .right-container {
-    flex: 1;
-    
-   }
+  flex: 1;
+}
 .connect-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  color: purple;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(246, 8, 246);
 }
 
 .connect-description {
   padding: 1rem 3rem;
   font-size: 1.3rem;
 }
-
-
 
 @media (max-width: 768px) {
   .contactus-container {
@@ -70,10 +68,7 @@
     flex: 1;
   }
   .form-container {
-   
     gap: 1rem;
-    
-   
   }
 
   .connect-description {
