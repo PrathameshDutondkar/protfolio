@@ -32,13 +32,19 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <ImPointRight />
-              &nbsp; JavaScript Library: ReactJs, NextJs
+              &nbsp; JavaScript Library :- ReactJs, NextJs
             </li>
             <li className="about-activity">
-              <ImPointRight /> &nbsp; CSS Framework: Antd, MaterialUi, BootStrap, Taliwind
+              <ImPointRight /> &nbsp; CSS Framework :- Antd, MaterialUi, BootStrap, Taliwind
             </li>
             <li className="about-activity">
-              <ImPointRight /> &nbsp; Version Control: Git
+              <ImPointRight /> &nbsp; Version Control :- Git
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> &nbsp; Testing :- Jest
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> &nbsp; Project Management :- Jira
             </li>
           </ul>
 
