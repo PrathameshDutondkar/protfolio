@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import "./home.scss"
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+             
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -39,9 +41,11 @@ function Home() {
               />
             </Col>
           </Row>
+          
         </Container>
-      </Container>
+      </Container> 
       <Home2 />
+     
     </section>
   );
 }

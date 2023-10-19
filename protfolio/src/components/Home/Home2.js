@@ -28,6 +28,7 @@ function Home2() {
               &nbsp; of buliding a web Application.
               <br />
             </p>
+           
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

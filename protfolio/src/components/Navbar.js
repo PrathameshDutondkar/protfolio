@@ -83,7 +83,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -91,13 +91,14 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
                                as={Link}
 
-                to="/hireme"
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
                 {/* <ImBlog style={{ marginBottom: "2px" }} />
                  */}

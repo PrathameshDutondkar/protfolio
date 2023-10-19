@@ -1,0 +1,30 @@
+.button-container{
+    display: flex;
+    padding: 0 0 0 3rem;
+    gap: 2rem;
+    .button {
+        color: #16345a;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        width: 160px;
+        height: 45px;
+        flex-shrink: 0;
+        cursor: pointer;
+      }
+    
+      .button1 {
+        border-radius: 5px;
+        border: 2px solid #ff58f9;
+        background: #ff58ee;
+        cursor: pointer;
+      }
+      .button1:hover {
+        background-color: white;
+        border: 2px solid white;
+        color: #153359;
+      }
+}
