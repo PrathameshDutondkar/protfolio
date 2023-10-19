@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/prathamesh-protfolio.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -56,18 +56,18 @@ function Projects() {
             />
           </Col>
 
-         {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Protfolio"
+              description="Creating a responsive portfolio using Bootstrap technology is an effective way to showcase your work. With Bootstrap's built-in responsive features, you can easily design a mobile-friendly, visually appealing, and user-friendly portfolio that adapts seamlessly to various screen sizes and devices."
+              ghLink="https://github.com/PrathameshDutondkar/Portfolio.git"
+              demoLink="https://prathamesh-protfolio.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/*<Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
