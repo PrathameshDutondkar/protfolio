@@ -19,12 +19,12 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am{" "}
             <span className="purple">Prathamesh Dutondkar </span>
-            from <span className="purple">Pune, India.</span>
+            from <span className="purple">Pune, Maharastra.</span>
             <br /> I have nearly one year of experience as a ReactJs
             Developer.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Perpetualblock Technology Pvt Ltd.
+             I am currently employed as a software developer at
+            Perpetualblock Technology Pvt Ltd. I specialize in developing and deploying responsive websites and web applications.
             <br />
             <br />
             <span className="purple">Tech Stack:-</span>

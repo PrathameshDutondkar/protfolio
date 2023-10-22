@@ -9,7 +9,7 @@ const Contatus = () => {
     <div className="connect-title">Get in touch</div>
         <div className="connect-description">
           I would love to hear about your project.<br/>Feel free to work together on
-          a project,discuss Project ideas,or just friendly hello.
+          a project,discuss project ideas or just friendly hello.
         </div>
     </div>
     <div className="form-container">

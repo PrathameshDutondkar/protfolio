@@ -17,15 +17,13 @@ function Home2() {
             <p className="home-about-body">
               React.js developer with nearly{" "}
               <b className="purple"> one year </b> of experience, dedicated to
-              crafting seamless user interfaces. Seeking opportunities to
-              contribute skills in front-end development to create intuitive web
-              experiences and stay ahead of industry trends.
+              crafting seamless user interfaces. As a CDAC graduate student, I'm committed to staying ahead of industry trends and continuously improving my skills..
               <br />
-              <br />I have a Knowleage of
+              <br />With a strong foundation in
               <i>
-                <b className="purple"> ReactJS , NextJs </b>
+                <b className="purple"> ReactJS , NextJs, Unit testing. </b>
               </i>
-              &nbsp; of buliding a web Application.
+              &nbsp;  I have a passion for building web applications that deliver intuitive user experiences.
               <br />
             </p>
            

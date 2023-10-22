@@ -61,7 +61,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Protfolio"
-              description="Creating a responsive portfolio using Bootstrap technology is an effective way to showcase your work. With Bootstrap's built-in responsive features, you can easily design a mobile-friendly, visually appealing, and user-friendly portfolio that adapts seamlessly to various screen sizes and devices."
+              description="Create a responsive portfolio website using Bootstrap CSS Framework with a contact form that sends messages to my email address and Google Tag Manager to track website traffic user details such as location and time spent on website."
               ghLink="https://github.com/PrathameshDutondkar/Portfolio.git"
               demoLink="https://prathamesh-protfolio.netlify.app/"
             />
