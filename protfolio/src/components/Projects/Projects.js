@@ -6,7 +6,7 @@ import leaf from "../../Assets/prathamesh-protfolio.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import Nike from "../../Assets/Projects/Nike.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -67,18 +67,18 @@ function Projects() {
             />
           </Col>
 
-          {/*<Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Nike}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="Create Nike Landing page by using vite,Tailwindcss and make that [page mobile responsive"
+              ghLink="https://github.com/PrathameshDutondkar/Nikeclone.git"
+              demoLink="https://nikelandingpagebyprathamesh.netlify.app/" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+         {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
