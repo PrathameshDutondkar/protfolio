@@ -71,7 +71,7 @@ function Projects() {
             <ProjectCard
               imgPath={Nike}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Nike Landing Page"
               description="Create Nike Landing page by using vite,Tailwindcss and make that [page mobile responsive"
               ghLink="https://github.com/PrathameshDutondkar/Nikeclone.git"
               demoLink="https://nikelandingpagebyprathamesh.netlify.app/" 
