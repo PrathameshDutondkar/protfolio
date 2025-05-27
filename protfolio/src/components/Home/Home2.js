@@ -16,7 +16,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               React.js developer with nearly{" "}
-              <b className="purple"> one year </b> of experience, dedicated to
+              <b className="purple"> 2.5 years </b> of experience, dedicated to
               crafting seamless user interfaces. As a CDAC graduate student, I'm committed to staying ahead of industry trends and continuously improving my skills..
               <br />
               <br />With a strong foundation in
